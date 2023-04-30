@@ -1,0 +1,233 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(30, 30, 30);
+}
+.Container
+{
+    width: 100%;
+    height: 100vh;
+    float: left;
+}
+.logo img
+{
+    margin-top: 40px;
+    margin-left: 140px;
+    float: left;
+    width: 150px;
+    height: 55px;
+}
+.iconlar
+{
+    float: right;
+    margin-right: 120px;
+    margin-top: 55px;
+}
+.iconlar i
+{
+   color: white;
+   float: right;
+   font-size: 30px;
+   margin-right: 15px;
+}
+.left 
+{
+    float: left;
+    margin-top: 160px;
+    margin-left: -155px;
+    width: 550px;
+    height: 500px;
+}
+.left h3
+{
+   color: rgb(255, 255, 255);
+   float: left;
+   font-size: 65px;
+   font-family: 'Konkhmer Sleokchher';
+   font-weight: 400;
+   line-height: 95px;
+}
+.left p
+{
+    float: left;
+    color: white;
+    margin-top: -65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.left span
+{
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Konkhmer Sleokchher';
+    margin-top: -15px;
+}
+.left del
+{
+   font-size: 20px;
+   margin-left: 10px;
+   font-weight: lighter;
+   font-family: Poppins;
+}
+.left input[type=button]
+{
+    float: left;
+    margin-top: 45px;
+    margin-left: -120px;
+    width: 210px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    margin-right: 130px;
+    transition: ease 0.5s;
+}
+.left input[type=submit]
+{
+    float: left;
+    margin-top: 45px;
+    margin-left: -120px;
+    width: 210px;
+    height: 60px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.left input[type=button]:hover
+{
+    background-color: rgb(190, 0, 0);
+    transform: translateY(-10px);
+    transition: ease 0.5s;
+}
+.left input[type=submit]:hover
+{
+    background-color: rgb(190, 0, 0);
+    transform: translateY(-10px);
+    transition: ease 0.5s;
+}
+.right
+{
+    width: 900px;
+    height: 705px;
+    background-color: red;
+    float: right;
+    margin-top: 50px;
+}
+.right p
+{
+    float: left;
+    font-size: 120px;
+    font-family: 'Konkhmer Sleokchher';
+    margin-left: 160px;
+    margin-top: 90px;
+    color: rgb(255, 85, 85);
+}
+.right img
+{
+    width: 680px;
+    height: 350px;
+    transform: rotate(-20deg);
+    margin-left: 125px;
+    margin-top: -290px;
+    transition: 0.5s;
+    float: left;
+}
+.right img:hover{
+    transform:rotate(0deg) ;
+    transition: 0.5s;
+}
+.shoe1
+{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(146, 171, 255);
+    float: left;
+    margin-left: -640px;
+    margin-top: 120px;
+}
+.shoe1 img
+{
+    width: 120px;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: 0px;
+    transform: rotate(-20deg);
+}
+.shoe1 img:hover
+{
+    transform: rotate(-0deg);
+    margin-left: -20px;
+    margin-top: 10px;
+}
+.shoe2 img:hover
+{
+    transform: rotate(-0deg);
+    margin-left: -20px;
+    margin-top: 10px;
+}
+.shoe3 img:hover
+{
+    transform: rotate(-0deg);
+    margin-left: -20px;
+    margin-top: 10px;
+}
+.shoe4 img:hover
+{
+    transform: rotate(-0deg);
+    margin-left: -20px;
+    margin-top: 10px;
+}
+.shoe2
+{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(167, 255, 248);
+    float: left;
+    margin-left: -480px;
+    margin-top: 120px;
+}
+.shoe2 img
+{
+    width: 120px;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: 0px;
+    transform: rotate(-20deg);
+}
+.shoe3
+{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 171, 167);
+    float: left;
+    margin-left: -320px;
+    margin-top: 120px;
+}
+.shoe3 img
+{
+    width: 120px;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: 0px;
+    transform: rotate(-20deg);
+}
+.shoe4
+{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(144, 253, 173);
+    float: left;
+    margin-left: -170px;
+    margin-top: 120px;
+}
+.shoe4 img
+{
+    width: 120px;
+    height: 60px;
+    margin-top: 0px;
+    margin-left: 0px;
+    transform: rotate(-20deg);
+}
